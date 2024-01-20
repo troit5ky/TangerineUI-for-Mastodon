@@ -18,21 +18,21 @@
     --gradient-bg: linear-gradient(90deg, var(--color-bg), var(--color-bg));
     --color-fg: #2a2d37;
     --color-fg-muted: #948c84;
-    --color-secondary-bg: #f2eae4;
+    --color-secondary-bg: #f7f3ee;
     --color-secondary-separator: #ede3db;
 
     --color-content-bg: #ffffff;
     --color-content-fg: #444a5a;
     --color-content-fg-bold: #000000;
     --color-content-fg-muted: #8b92a7;
-    --color-content-secondary-bg: #f9f6f4;
+    --color-content-secondary-bg: #f5f3f0;
     --color-content-secondary-separator: rgba(237, 227, 219, 0.4);
-    --color-content-bg-focus: #fffcfa;
+    --color-content-bg-focus: #fff5e6;
 
-    --color-accent: #f76902;
-    --color-accent-focus: #ff9447;
-    --color-accent-lines: rgba(247, 105, 2, 0.12);
-    --color-accent-bg: #f6e5dd;
+    --color-accent: #ffa31a;
+    --color-accent-focus: #ffb84d;
+    --color-accent-lines: rgba(255, 163, 26, 0.12);
+    --color-accent-bg: #f4e8d7;
     --color-accent-fg: #ffffff;
 
     --color-lines: #e1dde4;
@@ -48,8 +48,8 @@
     :root {
         --color-bg: #030303;
         --gradient-bg: linear-gradient(90deg, var(--color-bg), var(--color-bg));
-        --color-fg: #e0d6d1;
-        --color-fg-muted: #6e635e;
+        --color-fg: #d4cec4;
+        --color-fg-muted: #8c8273;
         --color-secondary-bg: #1e1810;
         --color-secondary-separator: #25201c;
 
@@ -61,10 +61,10 @@
         --color-content-secondary-separator: rgba(77, 73, 70, 0.4);
         --color-content-bg-focus: #0e0e0e;
 
-        --color-accent: #e68933;
-        --color-accent-focus: #ffa047;
-        --color-accent-lines: rgb(230, 137, 51, 0.3);
-        --color-accent-bg: #3c2a1f;
+        --color-accent: #ffa31a;
+        --color-accent-focus: #ffb84d;
+        --color-accent-lines: rgb(255, 163, 26, 0.3);
+        --color-accent-bg: #453721;
         --color-accent-fg: #ffffff;
 
         --color-lines: #343434;
@@ -1342,11 +1342,11 @@ body.app-body  {
 .app-body .compose-form .compose-form__modifiers .compose-form__upload .icon-button:is(:active, :focus, :hover) {
     background-color: rgba(0, 0, 0, .4);
 }
-@media screen and (max-width:1174px) {
-    .app-body:not(.layout-multiple-columns) .compose-form {
-        padding: 15px;
-    }
-}
+// @media screen and (max-width:1174px) {
+//     .app-body:not(.layout-multiple-columns) .compose-form {
+//         padding: 15px;
+//     }
+// }
 
 .app-body .compose-form .attachment-list.compact .icon {
     color: var(--color-content-fg-muted);
